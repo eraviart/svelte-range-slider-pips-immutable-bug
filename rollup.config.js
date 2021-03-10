@@ -33,7 +33,8 @@ export default {
 			svelte({
 				compilerOptions: {
 					dev,
-					hydratable: true
+					hydratable: true,
+					immutable: true
 				}
 			}),
 			url({
@@ -87,7 +88,8 @@ export default {
 				compilerOptions: {
 					dev,
 					generate: 'ssr',
-					hydratable: true
+					hydratable: true,
+					immutable: true
 				},
 				emitCss: false
 			}),
