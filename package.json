@@ -29,6 +29,6 @@
     "rollup-plugin-terser": "^7.0.0",
     "sapper": "^0.28.0",
     "svelte": "^3.17.3",
-    "svelte-range-slider-pips": "^1.7.0"
+    "svelte-range-slider-pips": "github:eraviart/svelte-range-slider-pips"
   }
 }
